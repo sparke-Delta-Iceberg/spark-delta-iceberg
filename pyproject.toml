@@ -1,0 +1,14 @@
+[project]
+name = "spark-delta-iceberg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "jupyterlab>=4.4.9",
+    "mkdocs>=1.6.1",
+    "mkdocs-jupyter>=0.25.1",
+    "mkdocs-material>=9.6.21",
+    "pyspark==3.5.3",
+]

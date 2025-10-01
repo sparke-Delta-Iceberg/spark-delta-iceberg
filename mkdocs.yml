@@ -1,0 +1,84 @@
+site_name: Apache Spark com Apache Iceberg
+site_description: Projeto acadêmico demonstrando operações CRUD com Apache Spark e Apache Iceberg
+site_author: João Vitor Espindola, Gabriel Jorge Loh, Arhur Ghizi
+site_url: https://github.com/sparke-Delta-Iceberg/spark-delta-iceberg.git
+
+repo_name: sparke-Delta-Iceberg/spark-delta-iceberg
+repo_url: https://github.com/sparke-Delta-Iceberg/spark-delta-iceberg.git
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - tables
+
+nav:
+  - Home: index.md
+  - Dataset Airbnb:
+    - Visão Geral: airbnb-dataset/overview.md
+    - Estrutura de Dados: airbnb-dataset/data_structure.md
+    - Operações CRUD: airbnb-dataset/iceberg_operations.md
+  - Apache Iceberg:
+    - Visão Geral: iceberg/overview.md
+    - Operações CRUD: iceberg/operations.md
+  - Configuração:
+    - Instalação: setup/installation.md
+    - Configuração do Ambiente: setup/environment.md
+    - Troubleshooting: setup/troubleshooting.md
+  - Notebooks:
+    - Spark + Iceberg: notebooks/spark-iceberg/spark-iceberg.ipynb
+    - Spark + Delta Lake: notebooks/spark-delta-lake/spark-delta-lake.ipynb
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include:
+        - docs/notebooks/spark-iceberg/*.ipynb
+        - docs/notebooks/spark-delta-lake/*.ipynb
+      execute: false
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sparke-Delta-Iceberg/spark-delta-iceberg.git
