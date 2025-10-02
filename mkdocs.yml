@@ -1,6 +1,6 @@
-site_name: Apache Spark com Apache Iceberg
+site_name: Spark com apache iceberg e delta lake
 site_description: Projeto acadêmico demonstrando operações CRUD com Apache Spark e Apache Iceberg
-site_author: João Vitor Espindola, Gabriel Jorge Loh, Arhur Ghizi
+site_author: João Vitor Espindola, Gabriel Jorge Loh, Arthur Ghizi
 site_url: https://github.com/sparke-Delta-Iceberg/spark-delta-iceberg.git
 
 repo_name: sparke-Delta-Iceberg/spark-delta-iceberg
@@ -56,19 +56,22 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Dataset Airbnb:
-    - Visão Geral: airbnb-dataset/overview.md
-    - Estrutura de Dados: airbnb-dataset/data_structure.md
-    - Operações CRUD: airbnb-dataset/iceberg_operations.md
+      - Visão Geral: airbnb-dataset/overview.md
+      - Estrutura de Dados: airbnb-dataset/data_structure.md
+      - Operações CRUD: airbnb-dataset/iceberg_operations.md
   - Apache Iceberg:
-    - Visão Geral: iceberg/overview.md
-    - Operações CRUD: iceberg/operations.md
+      - Visão Geral: iceberg/overview.md
+      - Operações CRUD: iceberg/operations.md
+  - Delta Lake:
+      - Visão Geral: delta/overview.md
+      - Operações CRUD: delta/operations.md
   - Configuração:
-    - Instalação: setup/installation.md
-    - Configuração do Ambiente: setup/environment.md
-    - Troubleshooting: setup/troubleshooting.md
+      - Instalação: setup/installation.md
+      - Configuração do Ambiente: setup/environment.md
+      - Troubleshooting: setup/troubleshooting.md
   - Notebooks:
-    - Spark + Iceberg: notebooks/spark-iceberg/spark-iceberg.ipynb
-    - Spark + Delta Lake: notebooks/spark-delta-lake/spark-delta-lake.ipynb
+      - Spark + Iceberg: notebooks/spark-iceberg/spark-iceberg.ipynb
+      - Delta + Lake: notebooks/spark-delta-lake/spark-delta-lake.ipynb
 
 plugins:
   - search

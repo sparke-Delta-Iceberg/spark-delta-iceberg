@@ -1,10 +1,12 @@
-## Projeto Apache Spark com Apache Iceberg
+## Projeto Spark com apache iceberg e delta lake
 
 Projeto desenvolvido para demonstração do Apache Spark Local (pyspark) gravando arquivos no formato Apache Iceberg também de forma local.
 
 Utilize o WSL do Windows 11 ou alguma outra distro Linux. Não utilize ambiente Windows, pois será necessário efetuar várias configurações adicionais para funcionar.
 
 Para este laboratório foi utilizado o Linux Ubuntu 24.04.
+
+**Para utilização dos notebooks, é necessário possuir java 17 instalado e configurado**
 
 ![Versao Linux](/assets/linux-version.png)
 
@@ -16,7 +18,7 @@ Comandos utilizados para setup do ambiente:
 uv init
 uv venv
 source .venv/bin/activate
-uv add pyspark==3.5.3 jupyterlab ipykernel
+uv add pyspark==3.5.3 jupyterlab ipykernel delta delta-spark
 ```
 
 Os exemplos de código pyspark/python para instanciar o Spark, bem como criar e manipular uma tabela Apache Iceberg, está no arquivo `notebooks/spark-iceberg.ipynb`.

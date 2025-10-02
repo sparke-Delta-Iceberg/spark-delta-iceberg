@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "delta>=0.4.2",
+    "delta-spark>=3.3.2",
     "ipykernel>=6.29.5",
     "jupyter-client>=8.6.3",
     "jupyterlab>=4.4.9",

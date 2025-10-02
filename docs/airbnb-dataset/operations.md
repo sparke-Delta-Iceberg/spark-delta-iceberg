@@ -1,5 +1,5 @@
 ---
-title: Operações CRUD com Apache Iceberg e DeltaLake + Spark(Airbnb)
+title: Operações CRUD com Apache Iceberg e Delta Lake + Spark(Airbnb)
 ---
 
 ## Operações CRUD
@@ -20,5 +20,3 @@ Para executar o notebook:
 - Inicie o Jupyter Lab: `uv run jupyter lab`
 - Selecione o kernel `.venv`
 - Garanta que o Java esteja instalado e `JAVA_HOME` configurado (ver [Configuração do Ambiente](../setup/environment.md)).
-
-

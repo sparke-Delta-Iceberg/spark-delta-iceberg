@@ -1,6 +1,6 @@
-# Apache Spark com Apache Iceberg - Dataset Airbnb
+# Spark com apache iceberg e delta lake - Dataset Airbnb
 
-Bem-vindo ao projeto acadêmico que demonstra as operações CRUD (Create, Read, Update, Delete) utilizando Apache Spark com Apache Iceberg, utilizando dados públicos do Inside Airbnb.
+Bem-vindo ao projeto acadêmico que demonstra as operações CRUD (Create, Read, Update, Delete) utilizando Spark com apache iceberg e delta lake, utilizando dados públicos do Inside Airbnb.
 
 ## Objetivo do Projeto
 
@@ -19,12 +19,12 @@ graph TB
     B --> F[Schema Evolution]
     B --> G[Hidden Partitioning]
     B --> H[Time Travel]
-    
+
     I[Inside Airbnb] --> J[Dataset Público]
     J --> B
-    
+
     K[Jupyter Notebooks] --> L[Iceberg Examples]
-    
+
     M[MkDocs] --> N[Documentation]
 ```
 
@@ -50,6 +50,7 @@ Utiliza dados reais do [Inside Airbnb](http://insideairbnb.com/get-the-data/) do
 ## Funcionalidades Demonstradas
 
 ### Spark + Apache Iceberg com Dataset Airbnb
+
 - ✅ **CREATE**: Criação de tabelas Iceberg
 - ✅ **INSERT**: Inserção de dados do dataset público
 - ✅ **SELECT**: Consultas e análises dos dados
@@ -62,6 +63,7 @@ Utiliza dados reais do [Inside Airbnb](http://insideairbnb.com/get-the-data/) do
 - ✅ **Time Travel**: Navegação temporal nos dados
 
 ### Spark + Delta Lake com Dataset Airbnb
+
 #TODO
 
 ## Estrutura do Projeto
