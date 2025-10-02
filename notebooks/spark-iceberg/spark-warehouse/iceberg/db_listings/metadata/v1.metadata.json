@@ -1,9 +1,9 @@
 {
   "format-version" : 2,
-  "table-uuid" : "02cfbd31-e7c5-4e87-996c-9832a81de5f4",
+  "table-uuid" : "a9c62415-7461-46bf-a191-e1b45c885c85",
   "location" : "spark-warehouse/iceberg/db_listings",
   "last-sequence-number" : 0,
-  "last-updated-ms" : 1759359630163,
+  "last-updated-ms" : 1759434436842,
   "last-column-id" : 6,
   "current-schema-id" : 0,
   "schemas" : [ {
@@ -53,7 +53,7 @@
     "fields" : [ ]
   } ],
   "properties" : {
-    "owner" : "gabrieljloh",
+    "owner" : "root",
     "write.parquet.compression-codec" : "zstd"
   },
   "current-snapshot-id" : -1,
